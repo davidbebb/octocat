@@ -1,1 +1,11 @@
 Q: Explain what the "upstream" remote is usually used for, in your own words
+
+A: upstream is usually the main project repository, which you (the downstream user) has cloned to work on.
+
+Upstream remote allows you to track changes that are not directly part of your cloned repository.
+
+This means you can keep your working copy in sync with the main project (benefiting from changes made by others), without needing to be working on the main project directly (it's generally not polite to accidentally break someone else's project...)
+
+Once you have a set of working changes that you would like to contribute to the main repository, you can rebase your fork with the most recent version of the main project, before sending to to the project maintainer to see if the want to add it to the main project (it's more likely to be included if the project maintainer doesn't need to modify it in order for it to work with the current main project).
+
+
