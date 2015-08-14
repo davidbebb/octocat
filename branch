@@ -1,1 +1,5 @@
-Q:Explain what a branch is, in your own words
+A: A branch is a separate, parallel version of a project, within the same repository.
+
+They are often used to allow work on two different parts of a project to occur without needing to keep everyones changes syncronised.
+
+Once a branch is complete, it is usually merged back into the main trunk.
