@@ -1,1 +1,12 @@
 Q: Explain what git clone does, in your own words
+
+A: Git clone is used to make a copy of an existing git repository.
+
+It is, in effect, a combination of several commands, which combine to make the following sequence
+
+1) Make a local directory to put the repository into (mkdir <repository_name>)
+2) start a git repository in this new directory (git init)
+3) add a remote repository as a source (git remote add <name of repository> <url of repository>)
+4) copy remote repository (git pull)
+
+
